@@ -1,0 +1,21 @@
+.pageContainer{
+    height:32px;
+    margin-left:20px;
+    margin-top:40px;
+}
+.pageContainer>a{
+    display: inline-block;
+    border:1px solid #ccc;
+    width:32px;
+    height:32px;
+    line-height: 32px;
+    text-align: center;
+    text-decoration: none;
+    background-color:#FFF;
+    color:#333;
+    border-radius: 4px;
+}
+.pageContainer>a.actived{
+    background-color: #00a65a;
+    color:#FFF;
+}

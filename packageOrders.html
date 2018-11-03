@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>套餐订单</title>
+    <link rel="stylesheet" href="./plugins/layui/css/layui.css" media="all">
+</head>
+
+<body>
+
+<table class="layui-table" lay-data="{height:315, url:'packageOrders.php', page:true, id:'test',height: 'full-25'}" lay-filter="test" id="test">
+    <thead>
+    <tr>
+        <th lay-data="{field:'id', width:360, sort: true}">ID</th>
+        <th lay-data="{field:'photographyPackageName', width:360}">套餐名</th>
+        <th lay-data="{field:'phone',width:240}">手机号</th>
+        <th lay-data="{field:'price',width:180, sort: true}">价格</th>
+        <th lay-data="{field:'state',width:120, sort: true}">状态</th>
+        <th lay-data="{field:'time',width:180, sort: true}">时间</th>
+    </tr>
+    </thead>
+</table>
+
+<script src="./plugins/layui/layui.js"></script>
+<script>
+    layui.use('table', function() {
+        var table = layui.table;
+    });
+</script>
+</body>
+
+</html>

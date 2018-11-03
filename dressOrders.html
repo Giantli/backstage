@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>婚纱订单</title>
+    <link rel="stylesheet" href="./plugins/layui/css/layui.css" media="all">
+</head>
+
+<body>
+
+<table class="layui-table" lay-data="{height:315, url:'dressOrders.php', page:true, id:'test',height: 'full-25'}" lay-filter="test" id="test">
+    <thead>
+    <tr>
+        <th lay-data="{field:'id', width:360, sort: true}">ID</th>
+        <th lay-data="{field:'weddingDressName', width:180}">婚纱名</th>
+        <th lay-data="{field:'phone', width:240}">手机</th>
+        <th lay-data="{field:'amount',width:120, sort: true}">数量</th>
+        <th lay-data="{field:'size',width:120}">尺码</th>
+        <th lay-data="{field:'price',width:180, sort: true}">价格</th>
+        <th lay-data="{field:'state',width:120, sort: true}">状态</th>
+        <th lay-data="{field:'time',width:180, sort: true}">时间</th>
+    </tr>
+    </thead>
+</table>
+
+<script src="./plugins/layui/layui.js"></script>
+<script>
+    layui.use('table', function() {
+        var table = layui.table;
+    });
+</script>
+</body>
+
+</html>

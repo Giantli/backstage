@@ -1,0 +1,116 @@
+
+.bookSearch{
+    margin-top:16px;
+    width:800px;
+    line-height:36px;
+    font-size:14px;
+    font-weight:normal;
+    float:right;
+}
+#dressContainer{
+    width:100%;
+    display: flex;
+    margin-top:40px;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+}
+.dressItem{
+    border:1px solid #D8D5D7;
+    margin-left:2%;
+    width:14%;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:6px;
+    padding:10px 5px 10px 5px;
+    /*box-shadow: 5px 5px 2px  #999;*/
+    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+    /*background-image: url("../images/back.jpg");*/
+}
+.dressItem img{
+    width:68%;
+    display: block;
+    margin:10px auto;
+    border-radius:10px;
+
+}
+.dressDetail:hover{
+    opacity: 1;
+    transition: opacity 0.3s linear;
+}
+.dressDetail{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    color:#FFF;
+    opacity: 0;
+}
+.dressDetail>div{
+    display: block;
+    line-height: 28px;
+    height:36px;
+    width:70%;
+    margin:auto;
+}
+.dressDetail>div:first-child{
+    margin-top:30px;
+}
+.dressDetail>div>span{
+    width:70px;
+    text-align: left;
+    display: inline-block;
+}
+.dressDetail .btn-group{
+    margin-top:30px;
+}
+.btn-group>.btn{
+    margin-left:24px;
+    display:block;
+    width:60px;
+
+}
+.addDressContainer{
+    width:600px;
+    margin:40px 0;
+}
+.uploadHeader{
+    display:inline-block;
+    width:80px;
+    height:36px;
+    line-height: 36px;
+    border:1px solid #D8D5D7;
+    border-radius: 8px;
+    text-align: center;
+    cursor:pointer;
+}
+.show-dialog{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    width:180px;
+    height:64px;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+    color:#FFF;
+    line-height: 64px;
+    border-radius:8px;
+    font-size:18px;
+    display:none;
+
+
+}
+.imageContainer .wrapper{
+    width:70px;
+    position:relative;
+    margin-right:2px;
+    display: inline-block;
+}
+.imageContainer i{
+    position:absolute;
+}
+

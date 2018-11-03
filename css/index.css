@@ -1,0 +1,27 @@
+.header{
+    height:60px;
+    border-bottom: 1px solid #009688;
+}
+.middle {
+    background-color: #FFFFFF;
+    padding: 18px 20px;
+    min-height: 860px;
+    min-width:1200px;
+}
+.addButton{
+    border:1px solid #D8D5D7;
+    color:#010101;
+    height:36px;
+    margin-top:16px;
+    text-align: center;
+    font-size:14px;
+    line-height: 36px;
+    border-radius: 6px;
+    width:130px;
+    cursor:pointer;
+    display:inline-block;
+}
+.addButton:hover{
+    text-decoration: none;
+    color:#00a65a;
+}
